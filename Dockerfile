@@ -42,4 +42,5 @@ RUN git clone https://github.com/botgram/shell-bot.git \
 RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
+CMD export http_proxy=socks5://72.221.172.203:4145
 CMD bash /home/startbot.sh
