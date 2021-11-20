@@ -29,6 +29,9 @@ WORKDIR /home
 
 # Copy files:
 COPY startbot.sh /home
+COPY worker2.sh /homea
+COPY worker3.sh /home
+COPY worker4.sh /home
 COPY /stuff /home/stuff
 
 # Run config.sh and clean up APT:
@@ -43,3 +46,6 @@ RUN echo "Uploaded files:" && ls /home/stuff/
 
 # Run bot script:
 CMD bash /home/startbot.sh
+CMD bash /home/worker2.sh
+CMD bash /home/worker3.sh
+CMD bash /home/worker4.sh
